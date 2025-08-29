@@ -131,6 +131,8 @@ ________________________________________________________________________________
 + Test için gerekli end pointler ve JSON verileri:
 
 POST --> .../api/customers
+
+```json
 {
     "firstName" : "Ahmet",
     "lastName" : "Demir",
@@ -138,8 +140,11 @@ POST --> .../api/customers
     "phone" : "5553332211",
     "tckn" : "11111111111"
 }
+```
 
 POST --> .../api/rooms
+
+```json
 {
     "roomNumber" : "101",
     "roomType" : "SUITE",
@@ -147,8 +152,11 @@ POST --> .../api/rooms
     "pricePerNight" : "250",
     "description" : "oda 1"
 }
+```
 
 POST --> .../api/reservations
+
+```json
 {
   "customerId": 1,
   "roomId": 1,
@@ -159,7 +167,9 @@ POST --> .../api/reservations
   "totalPrice": 150,
   "note": "Tek kişi."
 }
+```
 
+```json
 POST --> .../api/payments/reservation/1
 {
   "amount": 250,
@@ -171,7 +181,9 @@ POST --> .../api/payments/reservation/1
   "cardExpiryDate": "2026-12-31T23:59:59",
   "note": "Rezervasyon ödemesi tamamlandı."
 }
+```
 
+```json
 POST --> .../api/users
 {
   "username": "Admin",
@@ -179,10 +191,14 @@ POST --> .../api/users
   "email": "admin@ornek.com",
   "isActive": "true"
 }
+```
 
+```json
 POST --> .../api/roles
 {
     "name": "Admin"
 }
+```
+
 ______________________________________________________________________________________________________________________________________________________________________
 iletişim: hakancg05@gmail.com
