@@ -169,8 +169,9 @@ POST --> .../api/reservations
 }
 ```
 
-```json
 POST --> .../api/payments/reservation/1
+
+```json
 {
   "amount": 250,
   "currency": "TRY",
@@ -183,8 +184,8 @@ POST --> .../api/payments/reservation/1
 }
 ```
 
-```json
 POST --> .../api/users
+```json
 {
   "username": "Admin",
   "password": "123456",
@@ -193,8 +194,9 @@ POST --> .../api/users
 }
 ```
 
-```json
 POST --> .../api/roles
+
+```json
 {
     "name": "Admin"
 }
