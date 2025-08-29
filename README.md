@@ -14,18 +14,7 @@ Teknolojiler:
   + Spring Framework 6 / Spring Boot 3.5.5, 
   + Maven
 ___________________________________________________________________________________
-Amaç: Bu projede bir otelin rezervasyon ve müşteri yönetiminin ön planda olduğu bir
-API oluşturmak istedim. Temel controller, service ve repository katmanlarına ek o-
-larak DTO ve DTO'ların Entity'lere dönüşümü için de mapper'lar oluşturdum. Projede
-gerekli enumları ve basit exception class'larını yazdıktan sonra repository içine
-kendi istediğim şekilde ekstra sorgu metotları da ekledim. Böylece daha geniş bir
-kullanıma uygun bir yapı oluşturdum. 
-
-  Projede bir müşteri otelde bulunan mevcut odalardan rezervasyon yapabiliyor. İs-
-tediği ödeme yöntemini oluşturduğum Payment entity'sine uygun bir şekilde seçebi-
-liyor. Bütün bu işlemleri ve oda, müşteri, rol, kullanıcı ve rezervasyon oluşturma
-işlemlerini admin veya resepsiyonist gibi rollerdeki yetkililer yapabiliyor ve ay-
-nı zamanda uygun şartlarda görüntüleyebiliyor.
+Amaç: Bu projede bir otelin rezervasyon ve müşteri yönetiminin ön planda olduğu bir API oluşturmak istedim. Temel controller, service ve repository katmanlarına ek olarak DTO ve DTO'ların Entity'lere dönüşümü için de mapper'lar oluşturdum. Projede gerekli enumları ve basit exception class'larını yazdıktan sonra repository içine kendi istediğim şekilde ekstra sorgu metotları da ekledim. Böylece daha geniş bir kullanıma uygun bir yapı oluşturdum. Projede bir müşteri otelde bulunan mevcut odalardan rezervasyon yapabiliyor. İstediği ödeme yöntemini oluşturduğum Payment entity'sine uygun bir şekilde seçebiliyor. Bütün bu işlemleri ve oda, müşteri, rol, kullanıcı ve rezervasyon oluşturma işlemlerini admin veya resepsiyonist gibi rollerdeki yetkililer yapabiliyor ve aynı zamanda uygun şartlarda görüntüleyebiliyor.
 ___________________________________________________________________________________
 Dependency'ler: 
   + Spring Web
